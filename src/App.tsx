@@ -59,12 +59,11 @@ export default function App() {
           transition={{ duration: 0.6 }}
           className="mb-8 text-center"
         >
-          <div className="w-32 h-32 rounded-full border-4 border-white/10 p-1 bg-gradient-to-br from-indigo-600 to-purple-700 shadow-2xl mb-4 overflow-hidden mx-auto">
-            {/* Using a standard IASD logo placeholder - replace with actual logo if needed */}
+          <div className="w-32 h-32 rounded-full border-4 border-white/10 p-1 bg-white/5 shadow-2xl mb-4 overflow-hidden mx-auto flex items-center justify-center">
             <img 
-              src="https://www.adventistas.org/pt/wp-content/uploads/sites/2/2013/05/logo-iasd-vertical.png" 
+              src="https://raw.githubusercontent.com/alexmonarca/iasd_sb/refs/heads/main/logo-IASD-2026-SB.png?token=GHSAT0AAAAAADSH7WLQD3RF6HCZHFZX5WSE2NIHABQ" 
               alt="IASD Logo" 
-              className="w-full h-full object-contain p-2 brightness-0 invert"
+              className="w-full h-full object-contain p-1"
               referrerPolicy="no-referrer"
             />
           </div>
