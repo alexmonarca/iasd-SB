@@ -18,7 +18,7 @@ const links = [
   {
     title: "Estudo Bíblico",
     description: "Aprenda mais sobre a Bíblia conosco",
-    url: "https://www.biblia.com.br/",
+    url: "https://wa.me/5512982000062?text=Quero%20um%20estudo%20b%C3%ADblico",
     icon: <BookOpen className="w-6 h-6" />,
     color: "bg-emerald-600"
   },
@@ -32,14 +32,14 @@ const links = [
   {
     title: "Instagram IASD São Borja",
     description: "Acompanhe nosso dia a dia",
-    url: "https://www.instagram.com/iasdsaoborja/",
+    url: "https://www.instagram.com/iasd_sb/",
     icon: <Instagram className="w-6 h-6" />,
     color: "bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-600"
   },
   {
     title: "WhatsApp",
     description: "Fale conosco agora mesmo",
-    url: "https://wa.me/5555999999999", // Placeholder for São Borja
+    url: "https://wa.me/556182190037",
     icon: <MessageCircle className="w-6 h-6" />,
     color: "bg-green-500"
   }
@@ -84,7 +84,7 @@ export default function App() {
           </div>
           <div className="flex items-center gap-1.5">
             <Clock className="w-3.5 h-3.5" />
-            <span>Sábados às 09h</span>
+            <span>Sáb. 09h | Qua. 19:30</span>
           </div>
         </motion.div>
 
