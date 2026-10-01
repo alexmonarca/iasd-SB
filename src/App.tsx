@@ -12,10 +12,18 @@ import {
   ExternalLink,
   MapPin,
   Clock,
-  Smartphone
+  Smartphone,
+  Trophy
 } from "lucide-react";
 
 const links = [
+  {
+    title: "Rústica Mexa-se pela Vida",
+    description: "Acesse o formulário para se inscrever e saber mais!",
+    url: "https://forms.gle/Z3JVXG5eNC6C66cRA",
+    icon: <Trophy className="w-6 h-6" />,
+    color: "bg-gradient-to-tr from-amber-500 to-orange-600"
+  },
   {
     title: "Estudo Bíblico",
     description: "Aprenda mais sobre a Bíblia conosco",
